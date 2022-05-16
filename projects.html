@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gozaeco-builders</title>
+    <link rel="stylesheet" href="projects.css">
+    <script src="https://kit.fontawesome.com/ddf51598a8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+    <body onload="slider()">
+        <div class="banner">
+          <div class="slider">
+            <img src="images/goza1.jpg" id="slideImg">
+          </div>
+          <div class="overlay">
+            <div class="navbar">
+              <div class="logo">
+                <img src="images/logo.jpg">
+              </div>
+             
+                <a href="mailto:gozaecobuilders@gmail.com"><button type="btn" class="btn">Talk To Us</button></a>
+                <a href="goza.html"><button type="btn" class="btn">Home</button>
+              </div>
+            </div>
+           </div>
+          </div>
+        </div>
+
+    </body>
+
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__links--wrapper">
+                <div class="footer__links--items">
+                    <h2>About Us</h2>
+                    <a href="/">How it works</a>
+                    <a href="/">Projects</a>
+                    <a href="/">Testimonals</a>
+                    <a href="/">Investments</a>
+                    <a href="/">Terms of service</a>
+                </div>
+                <div class="footer__links--items">
+                    <h2>About Us</h2>
+                    <a href="/">How it works</a>
+                    <a href="/">Projects</a>
+                    <a href="/">Testimonals</a>
+                    <a href="/">Investments</a>
+                    <a href="/">Terms of service</a>
+                </div>
+            </div>
+            <div class="footer__links--wrapper">
+                <div class="footer__links--items">
+                    <h2>About Us</h2>
+                    <a href="/">How it works</a>
+                    <a href="/">Projects</a>
+                    <a href="/">Testimonals</a>
+                    <a href="/">Investments</a>
+                    <a href="/">Terms of service</a>
+                </div>
+                <div class="footer__links--items">
+                    <h2>Social Media</h2>
+                    <a href="/">Facebook</a>
+                    <a href="/">Whatsapp</a>
+                    <a href="/">Twiter</a>
+                </div>
+            </div>
+            <div class="social__media">
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="/" id="footer__logo">Goza Eco-Builders</a>
+                    </div>
+                </div>
+                <p class="website__rights">©Goza 2022. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" id="social__icons--link" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="/" id="social__icons--link" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="/" id="social__icons--link" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    <script>
+        var slideImg = document.getElementById("slideImg");
+      
+        var images = new Array(
+          "images/goza1.jpg",
+          "images/goza2.jpg",
+          "images/goza3.jpg",
+          "images/goza4.jpg" ,
+          "images/goza5.jpg",
+          "images/goza6.jpg",
+          "images/goza7.jpg",
+          "images/goza8.jpg",
+          "images/goza9.jpg",
+          "images/goza10.jpg",
+          "images/goza12.jpg",
+          "images/goza13.jpg",
+          "images/goza14.jpg",
+          "images/goza15.jpg",
+          "images/goza16.jpg",
+          "images/goza17.jpg",
+          "images/goza18.jpg",
+          "images/goza19.jpg",
+          "images/goza20.jpg",
+          
+
+        );
+      
+        var len = images.length;
+        var i = 0;
+      
+        function slider() {
+          if (i > len - 1) {
+            i = 0;
+          }
+          slideImg.src = images[i];
+          i++;
+          setTimeout('slider()', 3000);
+        }
+      </script>
+      <script src="app.js"></script>
+</html>   

@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "kumbh Sans", sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+}
+
+#slideImg {
+  width: 100%;
+  height: 100vh;
+  animation: zoom 3s linear infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1.3);
+  }
+  15% {
+    transform: scale(1);
+  }
+  85% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+  0% {
+    transform: scale(1.3);
+  }
+  15% {
+    transform: scale(1);
+  }
+  85% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+  0% {
+    transform: scale(1.3);
+  }
+  15% {
+    transform: scale(1);
+  }
+  85% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+  0% {
+    transform: scale(1.3);
+  }
+  15% {
+    transform: scale(1);
+  }
+  85% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+  0% {
+    transform: scale(1.3);
+  }
+  15% {
+    transform: scale(1);
+  }
+  85% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+}
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.navbar {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  margin: 35px auto;
+}
+
+.logo {
+  flex-basis: 50%;
+}
+
+.logo img {
+  width: 150px;
+  cursor: pointer;
+}
+
+.menu-icons {
+  flex: 1;
+  align-items: center;
+  text-align: right;
+}
+
+.menu-icons img {
+  width: 20px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.btn {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px solid red;
+  background: transparent;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background: red;
+  border: 2px solid rgb(7, 11, 243);
+}
+
+.footer__container {
+  background-color: rgba(56, 55, 55, 0.609);
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer__logo{
+    color: #fff;
+}
+#footer__logo {
+  color: rgb(64, 16, 238);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin-bottom: 1px;
+}
+
+.footer__links {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__links--wrapper {
+  display: flex;
+}
+.footer__links--items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 16px;
+  width: 160px;
+  box-sizing: border-box;
+}
+
+.footer__links--items h2 {
+  margin-bottom: 16px;
+}
+
+.footer__links--items > h2 {
+  color: #080ce7fb;
+}
+
+.footer__links--items a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 00.5rem;
+}
+
+.footer__links--items a:hover {
+  color: #eb1313;
+  transition: 0.3s ease-out;
+}
+
+/* social icons*/
+
+.social__icon--link {
+  color: rgb(47, 13, 238);
+  font-size: 24px;
+}
+
+.social__media {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.social__media--wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+}
+
+.social__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+
+.social__logo {
+  color: rgb(35, 13, 235);
+  justify-self: flex-start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.website__rights {
+  color: rgb(43, 9, 236);
+}
+
+@media screen and (max-width: 820px) {
+  .footer__links {
+    padding-top: 2rem;
+  }
+
+  #footer__logo {
+    margin-bottom: 3rem;
+
+  }
+
+  .website__rights {
+    margin-bottom: 2rem;
+  }
+
+  .footer__link--wrapper {
+    flex-direction: column;
+  }
+
+  .social__media--wrap {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer__link--items {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+  }
+}
+ 

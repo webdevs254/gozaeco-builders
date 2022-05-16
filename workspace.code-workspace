@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "..\\blipz n chitz"
+		},
+		{
+			"path": "..\\flippy nips"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\careers"
+		},
+		{
+			"path": "..\\Projects"
+		}
+	],
+	"settings": {
+		"java.completion.enabled": false,
+		"java.debug.settings.enableRunDebugCodeLens": false,
+		"java.test.editor.enableShortcuts": false,
+		"liveServer.settings.multiRootWorkspaceName": "blipz n chitz"
+	}
+}
